@@ -1,6 +1,6 @@
 // Importa a função 'conectarAoBanco' para estabelecer a conexão com o banco de dados.
 // A função está localizada no arquivo dbconfig.js.
-//import 'dotenv/config';
+import 'dotenv/config';
 import { ObjectId } from 'mongodb';
 import conectarAoBanco from '../config/dbconfig.js';
 
